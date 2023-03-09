@@ -1,0 +1,14 @@
+{
+    "rabbit": {
+        "host": "127.0.0.1",
+        "port": "5672",
+        "username": "guest",
+        "password": "guest",
+        "input_queue_name": "ha_stream.get_speech_recognition.process",
+        "output_queue_name": "ha_stream.get_speech_recognition.store"
+    },
+    "graylog": {
+        "address": "beta-logs-graylog",
+        "port": "13363"
+    }
+}

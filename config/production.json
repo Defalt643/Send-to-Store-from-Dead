@@ -1,0 +1,14 @@
+{
+    "rabbit": {
+        "host": "",
+        "port": "",
+        "username": "rabbitmqadmin",
+        "password": "rabbitmqrklpkdF89i",
+        "input_queue_name": "ha_stream.get_speech_recognition.process",
+        "output_queue_name": "ha_stream.get_speech_recognition.store"
+    },
+    "graylog": {
+        "address": "",
+        "port": ""
+    }
+}

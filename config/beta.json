@@ -1,0 +1,14 @@
+{
+    "rabbit": {
+        "host": "94.74.82.178",
+        "port": "5672",
+        "username": "rabbitmqadmin",
+        "password": "rabbitmqrklpkdF89i",
+        "input_queue_name": "ha_oplog.speech.recognition.youtube.dead",
+        "output_queue_name": "ha_oplog.speech.recognition.youtube"
+    },
+    "graylog": {
+        "address": "graylog.se4.internal",
+        "port": "13398"
+    }
+}
